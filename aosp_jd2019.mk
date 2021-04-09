@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The PixelExperience Project
+# Copyright (C) 2019, 2021 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,10 +23,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_kunlun2
+PRODUCT_NAME := aosp_jd2019
 PRODUCT_BRAND := lenovo
-PRODUCT_DEVICE := kunlun2
-PRODUCT_MANUFACTURER := lenovo
-PRODUCT_MODEL := Lenovo K10 Note
+PRODUCT_DEVICE := jd2019
+PRODUCT_MANUFACTURER := Lenovo
+PRODUCT_MODEL := L78071
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
